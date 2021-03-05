@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Clase 1"
+date:   2021-03-05 01:02:02 -0300
+categories: clases
+---
+En esta primera clase hicimos una presentación del estado del arte en relación a los desarrollos tecnológicos y su relación con la sociedad.
+
+[Ver slides](https://www.google.com)
