@@ -4,10 +4,24 @@
 
 layout: home
 ---
-
+## Sobre el curso
 Este curso propone construir objetos que interactúan con datos y otros dispositivos a través de internet promoviendo el pensamiento sobre el rol ético del diseño y el desarrollo de tecnologías. Dado el contexto actual del ecosistema digital global, en el cual Internet de las cosas y Big Data dejaron de ser un problema específico de las ingenierías para convertirse en un campo interdisciplinar, los diseñadores tienen la oportunidad de formar parte del desarrollo de productos, experiencias y servicios que operan en y a través de internet.
 
-En este curso se aprende y ejercita la sintaxis de la programación, los protocolos de conectividad, el diseño de circuitos electrónicos y la construcción de objetos físicos capaces de procesar datos, con énfasis en la elaboración de reflexiones críticas sobre las posibilidades técnicas y creativas que ofrecen estas tecnologías y el impacto que tienen sobre la sociedad.
+En este curso se aprende y ejercita la sintaxis de la programación, los protocolos de conectividad, el diseño de circuitos electrónicos y la construcción de objetos físicos capaces de procesar datos, con énfasis en la elaboración de reflexiones críticas sobre las posibilidades técnicas y creativas que ofrecen estas tecnologías y el impacto que tienen sobre la sociedad.  
 
+
+**Profesores**  
+Iván Fardjoume | {{ site.email_2 }}   
+[Cristian Reynaga](https://cristianreynaga.com) | {{ site.email_1 }}  
+
+**1er Semestre 2021**  
+5 de marzo - 18 de junio  
+Encuentros: Viernes 14:30h a 18:00h
+
+<br>
+
+---  
+
+<br>
 
 

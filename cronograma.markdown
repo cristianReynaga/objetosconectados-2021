@@ -76,7 +76,7 @@ Semana 16
 Unidad 4: Implementación, seguridad e iteración  
 Pre-entrega de Trabajo Final. Presentaciones grupales de dispositivos, racional y documentación online.
 
-### Descripción de trabajos prácticos
+### Trabajos prácticos
 
 Trabajo práctico 1  
 Unidad: 1  
