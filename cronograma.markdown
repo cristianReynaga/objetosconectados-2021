@@ -16,17 +16,17 @@ Semana 3
 Unidad 2: Electrónica y conectividad  
 Fundamentos de electrónica. Funcionamiento de objetos conectados, sus partes internas, hardware y firmware. Sensores y actuadores. Bases de la electrónica, Ley de Ohm, componentes pasivos. Circulación de corriente. Circuito analógico vs circuito digital. Microcontrolador,  microprocesador. Programación de Microcontroladores (Firmware).  
 Ejercitación práctica:  
-Circuito Esp32 + Led.  
-Circuito Esp32 + Botón.  
-Circuito Esp32 + Boton + Led.  
+Circuito ESP8266 + Led.  
+Circuito ESP8266 + Botón.  
+Circuito ESP8266 + Boton + Led.  
 Entrega de TP 1 y presentación de TP 2.  
 
 Semana 4  
 Unidad 2: Electrónica y conectividad  
 Introducción a la conectividad de objetos.  Conectividad y plataformas online (plataformas de corporaciones). Uso de Plataforma Online (Thinger.io)  
 Práctica:  
-Circuito Esp32 + Online.  
-Circuito Esp32 + Boton + Led + Online.  
+Circuito ESP8266 + Online.  
+Circuito ESP8266 + Boton + Led + Online.  
  
 Semana 5 Feriado  
  
