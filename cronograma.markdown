@@ -4,15 +4,15 @@ title: Cronograma
 permalink: /cronograma/
 ---
 
-Semana 1  
+5/3- Semana 1  
 Unidad 1: Objetos en la era de la información  
 Introducción al estado de situación. Introducción al contexto tecnológico e innovaciones fundacionales para el desarrollo de objetos conectados. Presentación de casos de estudio de la industria tecnológica, del diseño y del arte digital. Análisis integral de los componentes típicos de todo objeto conectado (plataformas, usabilidad, lógica, materiales). Introducción a teorías contemporáneas sobre el rol del software en la sociedad y las responsabilidades de diseñadores y desarrolladores de tecnología. Presentación de TP 1.  
 
-Semana 2  
+12/3 - Semana 2  
 Unidad 1: Objetos en la era de la información  
 La lógica de los objetos. Puesta en común sobre avances del TP 1. Continuación de análisis de referentes. Introducción a los objetos conectados, prestando especial atención a las interacciones que los objetos tienen con el ambiente y cómo éstas modifican el diseño. Introducción a los aspecto legales en relación a propiedad intelectual y uso de datos online.  
 
-Semana 3  
+19/3 - Semana 3  
 Unidad 2: Electrónica y conectividad  
 Fundamentos de electrónica. Funcionamiento de objetos conectados, sus partes internas, hardware y firmware. Sensores y actuadores. Bases de la electrónica, Ley de Ohm, componentes pasivos. Circulación de corriente. Circuito analógico vs circuito digital. Microcontrolador,  microprocesador. Programación de Microcontroladores (Firmware).  
 Ejercitación práctica:  
@@ -21,7 +21,7 @@ Circuito ESP8266 + Botón.
 Circuito ESP8266 + Boton + Led.  
 Entrega de TP 1 y presentación de TP 2.  
 
-Semana 4  
+26/3 - Semana 4  
 Unidad 2: Electrónica y conectividad  
 Introducción a la conectividad de objetos.  Conectividad y plataformas online (plataformas de corporaciones). Uso de Plataforma Online (Thinger.io)  
 Práctica:  
@@ -30,49 +30,49 @@ Circuito ESP8266 + Boton + Led + Online.
  
 Semana 5 Feriado  
  
-Semana 6  
+9/4 - Semana 6  
 Unidad 2: Electrónica y conectividad  
 Programación web y conexión mobile. Extensión de programación web. Experimentación con JavaScript (P5js), IFTTT y otras plataformas online y mobile compatibles.  
 
-Semana 7  
+16/4 - Semana 7  
 Unidad 2: Electrónica y conectividad  
 Topologías de red. Revisión de las distintas arquitecturas online para el diseño de redes de objetos conectados. Análisis de tecnologías, protocolos de comunicación, posibilidades y limitaciones. Ejercitación sobre ejemplos de programación web.  
 Pre-entrega de TP 2.  
 
-Semana 8  
+23/4 - Semana 8  
 Unidad 3: Procesamiento e interacciones  
 Objetos interactivos. Análisis de referentes sobre el proceso de diseño de interacción (de baja a alta resolución) y formas de validación de los prototipos en función del concepto de racional. Ejercitación en grupo para construir racionales de objetos ya inventados.  
 Entrega de TP 2. Presentación de TP 3 y de Trabajo Final.  
 
-Semana 9 Semana del Diseño  
+30/4 - Semana 9 Semana del Diseño  
 
-Semana 10  
+7/5 - Semana 10  
 Unidad 3: Procesamiento e interacciones  
 Programación de interacciones. Integración de plataformas físicas y virtuales para generar interacciones que integran los dos ámbitos contemplando distintos tipos de usuarios. Ejercitación con electrónica, programación con Arduino y P5JS para interacciones en tiempo real.  
 
-Semana 11  
+14/5 - Semana 11  
 Unidad 3: Procesamiento e interacciones  
 Topologías y funcionamiento de redes. Presentación de distintas topologías de redes, protocolos de comunicación analizando limitaciones y posibilidades de cada una. Ejercitación grupal de integración de múltiples dispositivos en una misma red.  
 Pre-entrega TP 3.  
 
-Semana 12  
+21/5 - Semana 12  
 Unidad 4: Implementación, seguridad e iteración  
 Inicio de proyecto final. Presentación de casos y abordajes sobre la definición de problema, usuarios y solución para el diseño del proyecto. Inicio de los trabajos en grupo en clase.  
 Entrega TP 3.  
 
-Semana 13  
+28/5 - Semana 13  
 Unidad 4: Implementación, seguridad e iteración  
 Procesamiento y aspectos legales. Ejercitación sobre modos de sensar, procesar y actuar en base a distintas lógicas de programación y casos de uso. Análisis de aspectos legales sobre el uso de los datos y de propiedad intelectual del diseño de electrónica, hardware y programación.  
 
-Semana 14  
+4/6 - Semana 14  
 Unidad 4: Implementación, seguridad e iteración  
 Seguimiento de trabajo final. Trabajo en grupo y mentorías por proyecto. Presentación de invitado para revisión de proyectos.  
 
-Semana 15  
+11/6 - Semana 15  
 Unidad 4: Implementación, seguridad e iteración  
 Seguimiento de trabajo final. Trabajo en grupo y mentorías por proyecto. Presentación de invitado para revisión de proyectos.  
 
-Semana 16  
+18/6 - Semana 16  
 Unidad 4: Implementación, seguridad e iteración  
 Pre-entrega de Trabajo Final. Presentaciones grupales de dispositivos, racional y documentación online.
 
