@@ -19,11 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Diseño de Objetos Conectados
-email_1: creynaga@udesa.edu.ar
-email_2: ifardjoume@udesa.edu.ar
+author_1: Iván Fardjoume
+author_2: Cristian Reynaga
+email_2: creynaga [at] udesa.edu.ar
+email_1: ifardjoume [at] udesa.edu.ar
 description: >- # this means to ignore newlines until "baseurl:"
-  Curso coordinado por Iván Fardjoume y Cristian Reynaga. 
   Licenciatura de Diseño - Universidad de San Andrés. Buenos Aires - Argentina
+carrera: Licenciatura en Diseño
+universidad: Universidad de San Andrés
+ubicacion: Buenos Aires - Argentina
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 

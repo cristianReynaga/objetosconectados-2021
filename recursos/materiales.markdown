@@ -33,7 +33,7 @@ Listado de materiales que serán utilizados a partir del tercer encuentro (19 de
 
 <br>  
 
-### Proveedores de electrónica
+### Donde comprar
 
 #### Ciudad de Buenos Aires
 - [emakers](){:target="_blank"} - Congreso

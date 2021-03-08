@@ -9,16 +9,17 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
+            {%- if site.author_1 -%}
+              {{ site.author_1 | escape }}
+              <li><a class="u-email" href="mailto:{{ site.email_1 }}">{{ site.email_1 }}</a></li>
+              {{ site.author_2 | escape }}
+              <li><a class="u-email" href="mailto:{{ site.email_1 }}">{{ site.email_2 }}</a></li>
+
             {%- else -%}
-              {{ site.title | escape }}
+           <!--{{ site.title | escape }}-->
             {%- endif -%}
             </li>
-            {%- if site.email_1 -%}
-            <li><a class="u-email" href="mailto:{{ site.email_1 }}">{{ site.email_1 }}</a></li>
-            <li><a class="u-email" href="mailto:{{ site.email_2 }}">{{ site.email_2 }}</a></li>
-            {%- endif -%}
+           
         </ul>
       </div>
 
@@ -27,7 +28,10 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{- site.carrera | escape -}}<br>
+        {{- site.universidad | escape -}}<br>
+        {{- site.ubicacion | escape -}}</p>
+
       </div>
     </div>
 
