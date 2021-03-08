@@ -32,7 +32,7 @@ Cada estudiante contará con una bitácora web para registrar los avances de con
 
 Los trabajos prácticos se entregarán en la fecha indicada por el equipo docente. Se considerará ausente, sin excepción, a quien no los haya presentado en la fecha indicada. Se atenderán consultas a través del email de la cátedra.
 
-## Temario de contenidos
+## Unidades temáticas
 Los contenidos de la materia se organizan en cuatro unidades temáticas. Se inicia con una introducción al estado de situación para comprender los aspectos técnicos que dieron origen a los objetos conectados, los aspectos éticos que implican a sus creadores, y los aspectos políticos y sociales de las tecnologías y el ecosistema global actual. De forma progresiva se incorporan los fundamentos de la electrónica, el diseño de circuitos, la programación, el diseño de interacción y el uso de microcontroladores. Se introduce en la programación web y en los aspectos legales de información personal, las definiciones de open source, open hardware y los distintos tipos de licencias en torno a la propiedad de hardware y código. Se experimentan distintas técnicas de prototipado para generar maquetas funcionales y se finaliza con un trabajo práctico final grupal que integra todos los contenidos del programa.
 
 #### Unidad 1: Objetos en la era de la información
@@ -121,28 +121,3 @@ Buxton, B (2007) Sketching user experiences (pp. 127-142). Estados Unidos: Morga
 Maeda, J. (2020) The laws of simplicity. Estados Unidos: MIT Press
 
 MC Ewen, E. & Casimally H. (2014). Capítulo 11: Ethics. En MC Ewen, E; Casimally H. En Designing the Internet of Things (pp. 289-309, 1era ed.). Reino Unido: Wiley.
-
-
-### Otras consideraciones
-
-#### Materiales
-Listado de materiales que los participantes deberían tener durante el primer mes del curso:
-
-- Microcontrolador Wemos D1 Mini u otras opciones para domótica o IOT
-- Protoboard 830 Puntos
-- Fuente USB 5v
-- Led Rojo Alto Brillo 5mm x3
-- Led Verde Alto Brillo 5mm x3
-- Led Azul Alto Brillo 5mm x3
-- Led RGB Altro Brillo Anodo Comun.
-- Resistencia de 120 Ohms x10
-- Cables Macho Macho 40 Unidades Dupond.
-- Potenciometro 10K.
-- Push Button 10mm
-- Sensor BMP-280 Temperatura y Presión Barométrica
-
-Herramientas:
-- Multímetro
-- Pinza de corte
-- Soldador de estaño y estaño
-- Cables

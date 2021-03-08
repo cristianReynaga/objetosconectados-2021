@@ -6,6 +6,8 @@ categories: clases
 ---
 En esta primera clase hicimos una presentación del estado del arte en relación a los desarrollos tecnológicos y su relación con la sociedad.
 
+**[Slides Clase 1](https://drive.google.com/file/d/1Flqy1eKPXii4QggEPVX20_Egit0XNAwk/view?usp=sharing){:target="_blank"}**
+
 Lecturas para debatir en el próximo encuentro: 
 
 - Bridle, J. (2020). Capítulo 1: Caída en el abismo. En J, Bridle. La nueva edad oscura. La tecnología y el fin del futuro (pp. 6-42). Trad.: Sánchez Pérez, M.  España: Debate
@@ -16,4 +18,3 @@ Lectura complementaria:
 
 - Chun, W. (2008). Programmability. En M. Fuller. Software studies. A Lexicon (pp. 224-229). (1era ed.). Londres: MIT Press
 
-[Ver slides](https://drive.google.com/file/d/1Flqy1eKPXii4QggEPVX20_Egit0XNAwk/view?usp=sharing)

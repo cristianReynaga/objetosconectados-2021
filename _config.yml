@@ -34,6 +34,20 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Header Pages
+header_pages:
+- cronograma.markdown
+- programa.markdown
+- recursos.markdown
+
+show_excerpts: true
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%-d/%-m/%Y"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
