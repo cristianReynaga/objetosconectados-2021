@@ -42,7 +42,7 @@ plugins:
 header_pages:
 - cronograma.markdown
 - programa.markdown
-- recursos.markdown
+- recursos/index.markdown
 
 show_excerpts: true
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tutoriales
-permalink: recursos/tutoriales/
+permalink: /recursos/tutoriales
 ---
 
 próximamente

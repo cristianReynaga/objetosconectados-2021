@@ -26,3 +26,7 @@ permalink: /recursos/inspiracion
 
 - [Arduino el documental](https://www.youtube.com/watch?v=mltWc9_C9gs){:target="_blank"}
 
+#### Conferencias / Videos
+
+- [Jen Lowe. Deep Lab Lecture Series](https://vimeo.com/114393677){:target="_blank"}  
+

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Listado de materiales y proveedores
-permalink: /recursos/listado-materiales
+permalink: /recursos/materiales
 ---
 
 ### Materiales

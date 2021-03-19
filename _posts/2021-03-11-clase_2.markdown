@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Clase 2"
+date:   2021-03-11 01:02:02 -0300
+categories: clases
+---
+
+Conversamos sobre las lecturas pautadas en clase 1, avanzamos sobre el TP 1 e instalamos Arduino.  
+
+Comenzamos la clase analizando las lecturas de James Bridle y Shoshana Zuboff. 
+
+Analizamos las dudas sobre el [listado de materiales y donde comprar](/recursos/materiales.html).  
+
+Se presentaron los avances del TP 1 y finalizamos [descargando e instalando Arduino]. Luego configuramos el .json para utilizar el ESP8266. [Ver tutorial]. Este es el .json: https://arduino.esp8266.com/stable/package_esp8266com_index.json     
+
+En este encuentro no utilizamos slides.
+
+Para el próximo encuentro comenzaremos a utilizar el listado de materiales.
+
+<!--**[Slides Clase 2](https://drive.google.com/file/d/1Flqy1eKPXii4QggEPVX20_Egit0XNAwk/view?usp=sharing){:target="_blank"}**-->
+
+[descargando e instalando Arduino]: https://www.arduino.cc/en/Guide/
+[Ver tutorial]: https://user-images.githubusercontent.com/4081906/56029634-6a5f3480-5d4d-11e9-9eff-676c70fd5a6e.gif
