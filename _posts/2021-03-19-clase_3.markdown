@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Clase 3"
+date:   2021-03-19 01:02:02 -0300
+categories: clases
+---
+
+Nos introducimos en la electrónica y en programación con Arduino
+
+
+#### Código LED
+
+    #define LED 5
+
+    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    void setup() {
+    pinMode(LED, OUTPUT);
+    }
+
+    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    void loop() {
+    digitalWrite(LED, HIGH);
+    delay(1000);
+    digitalWrite(LED, LOW);
+    delay(1000);
+    }
+
+#### Código Botón
+
+    #define Button 5
+
+    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    void setup() {
+    Serial.begin(115200);
+    pinMode(Button, INPUT);
+    }
+
+    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    void loop() {
+    if (digitalRead(Button)) {
+        Serial.println("El boton esta ON");
+    } else {
+        Serial.println("El boton esta OFF");
+        }
+    }
+
+#### Código Botón con LED
+
+    #define Button 5
+    #define LED 0
+
+    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    void setup() {
+    pinMode(LED, OUTPUT);
+    pinMode(Button, INPUT);
+    }
+
+    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    void loop() {
+    if (digitalRead(Button)) {
+        digitalWrite(LED, HIGH);
+    } else {
+        digitalWrite(LED, LOW);
+        }
+    }
