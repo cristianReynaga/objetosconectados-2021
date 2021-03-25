@@ -11,7 +11,9 @@ Comenzamos la clase analizando las lecturas de James Bridle y Shoshana Zuboff.
 
 Analizamos las dudas sobre el [listado de materiales y donde comprar](/recursos/materiales.html).  
 
-Se presentaron los avances del TP 1 y finalizamos [descargando e instalando Arduino]. Luego configuramos el .json para utilizar el ESP8266. [Ver tutorial]. Este es el .json: https://arduino.esp8266.com/stable/package_esp8266com_index.json     
+Se presentaron los avances del TP 1 y finalizamos [descargando e instalando Arduino]. Luego configuramos el .json para utilizar el ESP8266. [Ver tutorial]. Este es el .json: 
+
+    https://arduino.esp8266.com/stable/package_esp8266com_index.json     
 
 En este encuentro no utilizamos slides.
 

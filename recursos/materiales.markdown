@@ -7,9 +7,22 @@ permalink: /recursos/materiales
 ### Materiales kit básico para el curso
 Listado de materiales que serán utilizados a partir del tercer encuentro (19 de marzo 2021).  
 
+**Microcontrolador**  
+Existen distintas opciones que nos sirven para el curso. Varían en medida y en la configuración inicial con Arduino, pero las siguientes opciones nos sirven en caso que no consigan el wemos o el nodemcu. Recordar que sólo es necesario 1 solo microcontrolador.
+
+| Material | Enlace referencia | Imagen |
+|----------|--------------------|---------|
+|ESP8266 NodeMCU V1 | [Emakers](https://www.emakers.com.ar/tienda/comunicaciones-wireless-y-rf/wifi/modulo-p-arduino-nodemcu-wifi-esp8266-v3?q=M%C3%B3dulo%20P/%20Arduino%20Nodemcu%20Wifi%20Esp8266%20V3) | [![Microcontrolador ESP8266 NodeMCU](/assets/images/nodemcuv1.jpeg "Microcontroladores")](/assets/images/nodemcuv1.jpeg){:height:200px} |
+|Wemos D1 Mini | [PatagoniaTec][wemos-patagonia] | [![Microcontrolador Wemos D1 Mini](/assets/images/wemosd1mini.png "Microcontroladores")](/assets/images/wemosd1mini.png){:height:200px} |
+|Nodemcu Wifi Esp8266 | [TodoMicro][nodemcu-todomicro] | [![Microcontrolador ESP8266 NodeMCU](/assets/images/nodemcuv1.jpeg "Microcontroladores")](/assets/images/nodemcuv1.jpeg){:height:200px} |
+|Wemos D1 R2 | [PatagoniaTec][wemosd1r2-patagonia] | [![Microcontrolador ESP8266 NodeMCU D1 R2](/assets/images/wemosd1r2.jpg "Microcontroladores")](/assets/images/wemosd1r2.jpg){:height:200px} |
+
+
+
+**Componentes y accesorios**  
+
 | Material | Cantidad | Enlace referencia | Imagen |
 |----------|----------|--------------------|---------|
-|Microcontrolador ESP8266 NodeMCU | 1 | [Emakers](https://www.emakers.com.ar/tienda/comunicaciones-wireless-y-rf/wifi/modulo-p-arduino-nodemcu-wifi-esp8266-v3?q=M%C3%B3dulo%20P/%20Arduino%20Nodemcu%20Wifi%20Esp8266%20V3) | [![Microcontrolador ESP8266 NodeMCU](/assets/images/nodemcu.jpeg "Microcontroladores")](/assets/images/nodemcu.jpeg){:height:200px} |
 |Cable USB-MicroUSB | 1 | [Emakers](https://www.emakers.com.ar/tienda/fuentes-baterias-y-cargadores/cargadores/cable-de-carga-microusb-de-1m) | [![Cable USB-MicroUSB](/assets/images/cableusbmicrousb.jpeg "Cable usb-microusb")](/assets/images/cableusbmicrousb.jpeg){:height10px} |
 |Fuente USB 5 Volts - 2 Amperes (Cargador de teléfono) | 1 | [PatagoniaTec](https://compras.patagoniatec.com/productos/fuente-switching-5v-2a-usb-fullenergy-de-pared/)| [![Fuente usb 5V](/assets/images/fuenteusb.jpeg "Fuente usb 5V")](/assets/images/fuenteusb.jpeg){:height:200px} |
 |Protoboard Simple 830 Puntos | 1 | [Emakers](https://www.emakers.com.ar/tienda/prototipado/breadboards-y-protoboards/protoboard-breadboard-simple-830-puntos) | [![Protoboard Simple 830 Puntos](/assets/images/protoboard.jpeg "Protoboard Simple 830 Puntos")](/assets/images/protoboard.jpeg){:height:200px} |
@@ -28,9 +41,7 @@ Listado de materiales que serán utilizados a partir del tercer encuentro (19 de
 **Microcontrolador**  
 Existen distintas opciones que nos sirven para el curso. Varían en medida y en la configuración inicial con Arduino, pero las siguientes opciones nos sirven en caso que no consigan el wemos o el nodemcu.
 
-| ![Wemos D1 Mini](/assets/images/wemosd1mini.png)| ![Wemos D1 - Proveedor PatagoniaTec](/assets/images/wemosd1.jpg) | ![Nodemcu Wifi Esp8266 LUA](/assets/images/nodemculua.jpeg) | 
-|--|--|--|
-|[Wemos D1 Mini - Proveedor Nubbeo][wemos-nubbeo] | [Wemos D1 - Proveedor PatagoniaTec][wemos-patagonia]| [Nodemcu Wifi Esp8266 LUA - Proveedor TodoMicro][nodemcu-todomicro]|
+
 
 ### Herramientas:
 **Multímetro (cualquier modelo sirve)**  
@@ -126,3 +137,4 @@ Es práctico para el momento de soldar, pero no es fundamental.
 [wemos-nubbeo]: https://www.nubbeo.com.ar/productos/mini-nodemcu-wemos-d1-wifi-esp8266-esp12f-4mb-uart-arduino-nubbeo/
 [wemos-patagonia]: https://compras.patagoniatec.com/productos/wemos-d1-esp12f-esp8266-wifi/
 [nodemcu-todomicro]:https://articulo.mercadolibre.com.ar/MLA-856573978-nodemcu-wifi-esp8266-lua-gpio-pwm-i2c-uart-chipset-ch340-_JM#position=1&type=item&tracking_id=095a4c62-5789-437e-948c-5dcf37893d72
+[wemosd1r2-patagonia]: https://compras.patagoniatec.com/productos/wemos-d1-esp12f-esp8266-wifi/

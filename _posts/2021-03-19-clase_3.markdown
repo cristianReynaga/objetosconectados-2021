@@ -5,19 +5,26 @@ date:   2021-03-19 01:02:02 -0300
 categories: clases
 ---
 
-Nos introducimos en la electrónica y en programación con Arduino
+Nos introducimos en la electrónica y en programación con Arduino. A continuación los circuitos y el código de cada ejemplo.
+Hacer click en cada imagen de los circuitos para ampliar.
 
+#### 1-Ejercicio LED
+Circuito LED  
+Utilizamos una resistencia de 120 ohms y un LED de 5mm, color a Elección.  
+Los pines dEl microcontrolador utilizados son GND (en algunas placas figura como G que significa GROUND o Tierra) y El pin D5.  
 
-#### Código LED
+[![Circuito led.ino](/assets/images/circuito-clase_1_ej_1.png)](/assets/images/circuito-clase_1_ej_1.png)
+
+Código led.ino  
 
     #define LED 5
 
-    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    // El setup, se ejecuta una sola vez al inicio del microcontrolador.
     void setup() {
     pinMode(LED, OUTPUT);
     }
 
-    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
     digitalWrite(LED, HIGH);
     delay(1000);
@@ -25,41 +32,58 @@ Nos introducimos en la electrónica y en programación con Arduino
     delay(1000);
     }
 
-#### Código Botón
+#### 2-Ejercicio Botón
+Circuito Botón  
+Utilizamos una resistencia de 120 ohms y un push button.
+Los pines del microcontrolador utilizados son 5V (5 volts), GND (en algunas placas figura como G que significa GROUND o Tierra) y el pin D5.
+
+Para ver los mensajes de consola cada vez que apretamos el botón ir a Tools/Serial Monitor y cambiar la velocidad de transmisión de 9600 a 115200 baudios.  
+
+[![Circuito boton.ino](/assets/images/circuito-clase_1_ej_2.png)](/assets/images/circuito-clase_1_ej_2.png)
+
+Código boton.ino
 
     #define Button 5
 
-    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    // El Setup, se ejecuta una sola vez al inicio del microcontrolador.
     void setup() {
     Serial.begin(115200);
     pinMode(Button, INPUT);
     }
 
-    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
     if (digitalRead(Button)) {
         Serial.println("El boton esta ON");
-    } else {
+    } Else {
         Serial.println("El boton esta OFF");
         }
     }
 
-#### Código Botón con LED
+#### 3-Ejercicio LED + Botón
+
+Circuito led_boton.ino  
+Utilizamos una resistencia de 120 ohms, un push button y un LED de 5mm, color a Elección.  
+Los pines del microcontrolador utilizados son 5V (5 volts), GND (en algunas placas figura como G que significa GROUND o Tierra) y los pines D0 y D5.
+
+[![Circuito led_boton.ino](/assets/images/circuito-clase_1_ej_3.png)](/assets/images/circuito-clase_1_ej_3.png)
+
+Código led_boton.ino  
 
     #define Button 5
     #define LED 0
 
-    // EL Setup, se ejecuta una sola vez al inicio del microcontrolador.
+    // El eetup, se ejecuta una sola vez al inicio del microcontrolador.
     void setup() {
-    pinMode(LED, OUTPUT);
-    pinMode(Button, INPUT);
+        pinMode(LED, OUTPUT);
+        pinMode(Button, INPUT);
     }
 
-    // El loop se ejecuta constantemente hasta que no tenga mas energia.
+    // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
     if (digitalRead(Button)) {
         digitalWrite(LED, HIGH);
-    } else {
+    } Else {
         digitalWrite(LED, LOW);
         }
     }
