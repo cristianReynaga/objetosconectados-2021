@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Pines de microcontroladores
+title: Microcontroladores ESP8266
 ---
 
-Existen distintas marcas y modelos de microcontroladores ESP8266. En esta tabla identificamos algunas opciones que existen en el mercado local y la asignación de pines de cada una
+Existen distintas marcas y modelos de microcontroladores con el chip ESP8266,que es el que usaremos en este curso. Como existen distintos fabricantes, cada uno modifica el diseño de las placas según sus preferencias y eso nos genera distintos tipos de formatos, medidas y asignación de pines en cada una.  
+
+En esta tabla identificamos algunas opciones que existen en el mercado local y la asignación de pines de cada una:
 
 
 ### NodeMCU V3

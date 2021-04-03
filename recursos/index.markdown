@@ -8,6 +8,7 @@ permalink: /recursos/
 
 - [Tutoriales](/recursos/tutoriales.html)
     - [Solución a problema de ESP8266 con SO Big Sur](/recursos/tutoriales/fix_big_sur.html)
-    - [Identificación de pines según microcontroladores](/recursos/tutoriales/pines_microcontrolador.html)
+    - [Microcontroladores](/recursos/tutoriales/microcontrolador.html)
+    - [Pinout Microcontroladores](/recursos/tutoriales/pinout_microcontroladores.html)
 
 - [Inspiración](/recursos/inspiracion.html)

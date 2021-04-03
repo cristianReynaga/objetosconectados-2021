@@ -21,15 +21,15 @@ Código led.ino
 
     // El setup, se ejecuta una sola vez al inicio del microcontrolador.
     void setup() {
-    pinMode(LED, OUTPUT);
+        pinMode(LED, OUTPUT);
     }
 
     // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
-    digitalWrite(LED, HIGH);
-    delay(1000);
-    digitalWrite(LED, LOW);
-    delay(1000);
+        digitalWrite(LED, HIGH);
+        delay(1000);
+        digitalWrite(LED, LOW);
+        delay(1000);
     }
 
 #### 2-Ejercicio Botón
@@ -47,17 +47,17 @@ Código boton.ino
 
     // El Setup, se ejecuta una sola vez al inicio del microcontrolador.
     void setup() {
-    Serial.begin(115200);
-    pinMode(Button, INPUT);
+        Serial.begin(115200);
+        pinMode(Button, INPUT);
     }
 
     // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
-    if (digitalRead(Button)) {
-        Serial.println("El boton esta ON");
-    } Else {
-        Serial.println("El boton esta OFF");
-        }
+        if (digitalRead(Button)) {
+            Serial.println("El boton esta ON");
+        } else {
+            Serial.println("El boton esta OFF");
+            }
     }
 
 #### 3-Ejercicio LED + Botón
@@ -81,9 +81,9 @@ Código led_boton.ino
 
     // El loop se ejecuta constantemente hasta que no tenga más energía.
     void loop() {
-    if (digitalRead(Button)) {
-        digitalWrite(LED, HIGH);
-    } Else {
-        digitalWrite(LED, LOW);
-        }
+        if (digitalRead(Button)) {
+            digitalWrite(LED, HIGH);
+        } else {
+            digitalWrite(LED, LOW);
+            }
     }
