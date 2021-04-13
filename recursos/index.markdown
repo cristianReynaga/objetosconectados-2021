@@ -11,4 +11,9 @@ permalink: /recursos/
     - [Microcontroladores](/recursos/tutoriales/microcontrolador.html)
     - [Pinout Microcontroladores](/recursos/tutoriales/pinout_microcontroladores.html)
 
+- Resistencias
+    - [Tabla de colores](../assets/images/tabla_colores_resistencia.jpg)
+    - [Calculadora online de resistencas](https://www.digikey.es/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
 - [Inspiración](/recursos/inspiracion.html)
+
+
