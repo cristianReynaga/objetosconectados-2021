@@ -30,4 +30,9 @@ permalink: /recursos/
     - [Driver CH340](/recursos/driver_ch340.html)  
 <br>
 
+- Resistencias
+    - [Tabla de colores](../assets/images/tabla_colores_resistencia.jpg)
+    - [Calculadora online de resistencas](https://www.digikey.es/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
 - [Inspiración](/recursos/inspiracion.html)
+
+
