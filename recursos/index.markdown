@@ -15,6 +15,8 @@ permalink: /recursos/
     - [Solución a problema de ESP8266 con SO Big Sur](/recursos/tutoriales/fix_big_sur.html)
     - [Microcontroladores](/recursos/tutoriales/microcontrolador.html)
     - [Pinout Microcontroladores](/recursos/tutoriales/pinout_microcontroladores.html)  
+    - [Sensor ultrasónico HC-SR04](/recursos/tutoriales/sensor_hc-sr04.html)  
+
 <br>
 
 - Video Tutoriales  

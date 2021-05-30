@@ -1,11 +1,86 @@
 ---
 layout: post
-title:  "Semana 7"
+title:  "Clase 4"
 date:   2021-03-25 01:02:02 -0300
 categories: clases
 ---
 
-Análisis de circuitos analógicos e introducción a control de LED RGB.
+Luego de realizar los primeros circuitos electrónicos comenzamos a conectar a internet utilizando la plataforma thinger.io      
 
-Slides Semana 7
+#### 1-ESP Online con Thinger.io
+  
 
+Código esp_online.ino  
+
+
+    #include <ThingerESP8266.h>
+
+    #define USERNAME "your_user_name"
+    #define DEVICE_ID "your_device_id"
+    #define DEVICE_CREDENTIAL "your_device_credential"
+
+    #define SSID "your_wifi_ssid"
+    #define SSID_PASSWORD "your_wifi_ssid_password"
+
+    ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
+
+    void setup() {
+        pinMode(LED_BUILTIN, OUTPUT);
+
+        thing.add_wifi(SSID, SSID_PASSWORD);
+
+        // digital pin control example (i.e. turning on/off a light, a relay, configuring a parameter, etc)
+        thing["led"] << digitalPin(LED_BUILTIN);
+
+        // resource output example (i.e. reading a sensor value)
+        thing["millis"] >> outputValue(millis());
+
+        // more details at http://docs.thinger.io/arduino/
+    }
+
+    void loop() {
+        thing.handle();
+    }
+
+#### 2-ESP Online + Botón + LED
+
+Utilizamos una resistencia de 120 ohms, un push button y un LED de 5mm, color a Elección.  
+Los pines del microcontrolador utilizados son 5V (5 volts), GND (en algunas placas figura como G que significa GROUND o Tierra) y los pines D0 y D5.
+
+[![Circuito led_boton.ino](/assets/images/circuito-clase_1_ej_3.png)](/assets/images/circuito-clase_1_ej_3.png)
+
+Código esp_online_boton_led.ino
+
+
+    #include <ThingerESP8266.h>
+
+    #define USERNAME "your_user_name"
+    #define DEVICE_ID "your_device_id"
+    #define DEVICE_CREDENTIAL "your_device_credential"
+
+    #define SSID "your_wifi_ssid"
+    #define SSID_PASSWORD "your_wifi_ssid_password"
+
+    ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
+
+    #define Button 5
+    #define LED 0
+
+    void setup() {
+        pinMode(LED, OUTPUT);
+        pinMode(Button, INPUT);
+
+        thing.add_wifi(SSID, SSID_PASSWORD);
+
+        // digital pin control example (i.e. turning on/off a light, a relay, configuring a parameter, etc)
+        thing["led"] << digitalPin(LED);
+
+        // resource output example (i.e. reading a sensor value)
+        thing["Button"] >> outputValue(digitalRead(Button));
+
+        // more details at http://docs.thinger.io/arduino/
+    }
+
+    void loop() {
+        thing.handle();
+    }
